@@ -43,11 +43,11 @@ style.textContent = `
   }
 
   img {
-    border-radius: 0 !important;
+    border: 1px !important;
   }
 
 element.style {
-    outline: rgb(255 255 255) dashed 1px;
+    outline: 0 !important;
 }
 
 .resume .resume_right .resume_work ul li:before, .resume .resume_right .resume_education ul li:before 
