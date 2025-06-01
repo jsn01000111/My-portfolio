@@ -7,11 +7,6 @@
     box-shadow: none !important;
   }
 
-element.style {
-    min-height: 100vh;
-    outline: rgb(255 255 255) dashed 1px;
-    cursor: default;
-}
 
 .resume .resume_right .resume_work ul li:before, .resume .resume_right .resume_education ul li:before 
 {
