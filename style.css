@@ -1,5 +1,3 @@
-
-
   * {
     background: #fff !important;
     color: #000 !important;
@@ -7,16 +5,6 @@
     box-shadow: none !important;
   }
 
-
-.resume .resume_right .resume_work ul li:before, .resume .resume_right .resume_education ul li:before 
-{
-    border: 2px solid #000;
-}
-
-.resume .resume_right .resume_work ul li:after, .resume .resume_right .resume_education ul li:after
- {
-    background: #000;
- }
 
 .resume .resume_left .resume_profile img {
   display: none;
