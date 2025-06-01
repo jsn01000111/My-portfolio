@@ -43,7 +43,8 @@ style.textContent = `
   }
 
   img {
-    border: 1px !important;
+    border: 1px solid #000 !important;
+    background-color: black !importsnt;
   }
 
 element.style {
