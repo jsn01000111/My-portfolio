@@ -7,6 +7,22 @@
     box-shadow: none !important;
   }
 
+.resume .resume_left .resume_profile img {
+  display: none;
+}
+
+.resume .resume_left .resume_profile::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1; /* or set height directly */
+  background-image: url('https://raw.githubusercontent.com/jsn01000111/My-portfolio/refs/heads/main/profile.png');
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #000;
+}
+
 
   .icon,
   .resume_hobby ul li {
