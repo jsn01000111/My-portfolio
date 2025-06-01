@@ -1,0 +1,48 @@
+
+
+  * {
+    background: #fff !important;
+    color: #000 !important;
+    border-color: #000 !important;
+    box-shadow: none !important;
+  }
+
+
+  .icon,
+  .resume_hobby ul li {
+    background: #fff !important;
+    border: 1px solid #000 !important;
+    color: #000 !important;
+  }
+
+
+  .skill_progress span {
+    background: #000 !important;
+  }
+
+  a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+
+  /* Remove images' border radius if needed */
+  img {
+    border-radius: 0 !important;
+  }
+
+
+element.style {
+    min-height: 100vh;
+    outline: rgb(255 255 255) dashed 1px;
+    cursor: default;
+}
+
+.resume .resume_right .resume_work ul li:before, .resume .resume_right .resume_education ul li:before 
+{
+    border: 2px solid #000;
+}
+
+.resume .resume_right .resume_work ul li:after, .resume .resume_right .resume_education ul li:after
+ {
+    background: #000;
+}
