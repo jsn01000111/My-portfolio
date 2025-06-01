@@ -45,18 +45,16 @@
   }
 
 element.style {
-    min-height: 100vh;
     outline: rgb(255 255 255) dashed 1px;
-    cursor: default;
 }
 
 .resume .resume_right .resume_work ul li:before, .resume .resume_right .resume_education ul li:before 
 {
-    border: 2px solid #000;
+    border: 2px solid #000 !important;
 }
 
 .resume .resume_right .resume_work ul li:after, .resume .resume_right .resume_education ul li:after
  {
-    background: #000;
+    background: #000 !important;
  }
 
